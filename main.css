@@ -432,3 +432,82 @@
 .create-sell-col2 {
     position: relative;
 }
+
+/* POPULAR ATISTS */
+
+.popular-artists {
+    margin: 0 auto;
+    width: 1512px;
+
+}
+
+.popular-artists-wrapper {
+    padding: 92px 0;
+}
+
+.popular-artists-title {
+    margin-bottom: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 253, 1);
+}
+
+.popular-artists-title h2 {
+    width: 310px;
+}
+
+.popular-artists-title span {
+    color: rgba(214, 239, 14, 1);
+}
+
+/* GRID CARDS */
+.popular-artists-cards {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, 305px);
+    grid-gap: 35px;
+}
+
+.popular-artists-card {
+    position: relative;
+}
+
+.popular-artists-card:nth-child(2) {
+    grid-column: 2 span;
+}
+
+.popular-artists-card:nth-child(4) {
+    grid-column: 2 span;
+}
+
+.popular-artists-card:nth-child(3) {
+    grid-row: 2 span;
+}
+
+.popular-artists-card-title {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 253, 1);
+}
+
+.popular-artists-card-title img {
+    margin-right: 12px;
+}
+
+.popular-artists-card-title p {
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
